@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+ hgapp1:
+  image: nginx:hglogin-2
+  build: https://github.com/Harissh77/loginhg.git
+  container_name: hglogin-2
+  ports:
+   - "2277:80"
