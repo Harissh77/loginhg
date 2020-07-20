@@ -1,4 +1,4 @@
-FROM ngnix
+FROM nginx
 #pulling image from docker hub
 MAINTAINER harissh.gautam@gmail.com, 9742411
 COPY login.html /usr/share/ngnix/html/index.html
